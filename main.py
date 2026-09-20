@@ -4043,15 +4043,15 @@ def confirmar_eliminacion_usuario(
 inicializar_db()
 cargar_datos_demo()
 
-# ui.run(
-#     title='simpleCRM',
-#     favicon='👥',
-#     port=8080,
-#     reload=False,
-#     storage_secret='simpleCRM_secret_key_2024'
-# )
-
 ui.run(
-    host='0.0.0.0'
+    title='simpleCRM',
+    favicon='👥',
     port=8080,
+    reload=False,
+    storage_secret='simpleCRM_secret_key_2024'
 )
+
+# ui.run(
+#     host='0.0.0.0'
+#     port=8080,
+# )
